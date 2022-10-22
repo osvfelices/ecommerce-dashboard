@@ -81,15 +81,42 @@ const gridEmployeeCountry = (props) => (
 export const EditorData = () => (
   <div>
     <h3>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fringilla tristique felis nec scelerisque. Nulla elementum, augue nec dignissim iaculis, nisl lectus tincidunt nisi, id eleifend lectus erat vitae neque. Nunc suscipit a justo ut porta. Vivamus ut velit ut libero molestie tempor eget sit amet elit. Sed non facilisis neque, varius pretium orci. Donec convallis ex risus, vel efficitur metus interdum et. Nunc venenatis mauris elit, vitae rhoncus risus pulvinar ut. Curabitur ut euismod tortor, eu ultrices augue. Curabitur volutpat, sem sed tristique sollicitudin, velit purus iaculis tellus, eu auctor nulla magna a urna. Cras a est condimentum, fringilla leo non, venenatis dolor.
+      Try React
+      React has been designed from the start for gradual adoption, and you can use as little or as much React as you need. Whether you want to get a taste of React, add some interactivity to a simple HTML page, or start a complex React-powered app, the links in this section will help you get started.
 
-Nullam condimentum ipsum eu elit cursus lobortis. Aliquam tellus ligula, pretium at consectetur non, mollis id metus. Donec accumsan id mi vel porta. Mauris in tellus mi. Nulla sed tellus eu diam rutrum laoreet. Curabitur porttitor mattis elit id elementum. Maecenas consectetur mi urna, vel rutrum massa hendrerit ut. Integer vehicula condimentum est ac posuere. Donec interdum non libero ut cursus. Donec volutpat ante quis lorem eleifend, ut convallis lectus ornare. Vivamus suscipit arcu dignissim neque ultricies dapibus. Vestibulum in facilisis est. Ut blandit volutpat tortor vel ultrices. Vivamus eleifend quam dolor, ac feugiat orci suscipit vitae.
+      Online Playgrounds
+      If you’re interested in playing around with React, you can use an online code playground. Try a Hello World template on CodePen, CodeSandbox, or Stackblitz.
 
-Nulla sed egestas metus. Quisque ut nunc pretium lorem commodo commodo sit amet in mi. Sed rhoncus orci nulla, et faucibus velit accumsan ac. Vivamus tincidunt turpis ut laoreet varius. Morbi eleifend at sapien eu placerat. Suspendisse potenti. Donec diam orci, malesuada vitae viverra et, convallis finibus ligula. Etiam iaculis, justo vel ornare sodales, metus nulla fermentum nisl, ut tincidunt tellus dolor vitae quam. Mauris condimentum quis enim et rhoncus. Sed consectetur ultricies sollicitudin. Donec condimentum arcu vitae libero vestibulum, ut consequat dui ullamcorper. Maecenas vitae libero tincidunt, sollicitudin augue vitae, imperdiet augue. Proin ac tellus a elit hendrerit pharetra ac eu diam. In sagittis in enim vel consequat. Integer sodales malesuada pharetra. Ut id gravida mauris.
+      If you prefer to use your own text editor, you can also download this HTML file, edit it, and open it from the local filesystem in your browser. It does a slow runtime code transformation, so we’d only recommend using this for simple demos.
 
-Nullam id blandit ex, nec vestibulum enim. Suspendisse eu velit tristique diam mollis porta. Sed interdum, turpis at sollicitudin viverra, nibh felis pulvinar felis, ac laoreet eros ex sed metus. Nulla ultricies turpis ultricies massa aliquet, at pulvinar arcu venenatis. Nam cursus ut augue eget accumsan. Ut eu nunc ipsum. Etiam tincidunt neque eu condimentum rutrum. Quisque et ornare felis, ut tincidunt magna. Praesent iaculis tempus risus, vel lacinia orci tincidunt sit amet. Aliquam orci nunc, sodales eget bibendum sed, ullamcorper sed purus. Proin quis dolor dictum eros efficitur maximus a sit amet dui. Pellentesque dictum, sapien id consequat pellentesque, dolor arcu ultricies nibh, sit amet tempor mauris nunc maximus lacus. Quisque laoreet viverra erat, quis dictum sem volutpat id. Curabitur dui purus, iaculis in ornare ut, auctor id tortor.
+      Add React to a Website
+      You can add React to an HTML page in one minute. You can then either gradually expand its presence, or keep it contained to a few dynamic widgets.
 
-Aenean at lacinia arcu. Ut in semper leo, quis faucibus arcu. Nunc euismod est eu scelerisque porta. Nunc posuere tortor eget elit accumsan dictum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur nec ligula scelerisque tortor dapibus gravida. Phasellus eleifend nisl in pretium sodales.
+      Create a New React App
+      When starting a React project, a simple HTML page with script tags might still be the best option. It only takes a minute to set up!
+
+      As your application grows, you might want to consider a more integrated setup. There are several JavaScript toolchains we recommend for larger applications. Each of them can work with little to no configuration and lets you take full advantage of the rich React ecosystem. Learn how.
+
+      Learn React
+      People come to React from different backgrounds and with different learning styles. Whether you prefer a more theoretical or a practical approach, we hope you’ll find this section helpful.
+
+      If you prefer to learn by doing, start with our practical tutorial.
+      If you prefer to learn concepts step by step, start with our guide to main concepts.
+      Like any unfamiliar technology, React does have a learning curve. With practice and some patience, you will get the hang of it.
+
+      First Examples
+      The React homepage contains a few small React examples with a live editor. Even if you don’t know anything about React yet, try changing their code and see how it affects the result.
+
+      React for Beginners
+      If you feel that the React documentation goes at a faster pace than you’re comfortable with, check out this overview of React by Tania Rascia. It introduces the most important React concepts in a detailed, beginner-friendly way. Once you’re done, give the documentation another try!
+
+      React for Designers
+      If you’re coming from a design background, these resources are a great place to get started.
+
+      JavaScript Resources
+      The React documentation assumes some familiarity with programming in the JavaScript language. You don’t have to be an expert, but it’s harder to learn both React and JavaScript at the same time.
+
+      We recommend going through this JavaScript overview to check your knowledge level. It will take you between 30 minutes and an hour but you will feel more confident learning React.
     </h3>
   </div>
 );
@@ -592,8 +619,8 @@ export const earningData = [
     amount: '39,354',
     percentage: '-4%',
     title: 'Customers',
-    iconColor: '#fff',
-    iconBg: '#2a6f97',
+    iconColor: '#03C9D7',
+    iconBg: '#E5FAFB',
     pcColor: 'red-600',
   },
   {
@@ -602,7 +629,7 @@ export const earningData = [
     percentage: '+23%',
     title: 'Products',
     iconColor: 'rgb(255, 244, 229)',
-    iconBg: '#2a6f97',
+    iconBg: 'rgb(254, 201, 15)',
     pcColor: 'green-600',
   },
   {
@@ -610,8 +637,8 @@ export const earningData = [
     amount: '423,39',
     percentage: '+38%',
     title: 'Sales',
-    iconColor: '#fff',
-    iconBg: '#2a6f97',
+    iconColor: 'rgb(228, 106, 118)',
+    iconBg: 'rgb(255, 244, 229)',
 
     pcColor: 'green-600',
   },
@@ -620,8 +647,8 @@ export const earningData = [
     amount: '39,354',
     percentage: '-12%',
     title: 'Refunds',
-    iconColor: '#fff',
-    iconBg: '#2a6f97',
+    iconColor: 'rgb(0, 194, 146)',
+    iconBg: 'rgb(235, 250, 242)',
     pcColor: 'red-600',
   },
 ];
@@ -632,8 +659,8 @@ export const recentTransactions = [
     amount: '+$350',
     title: 'Paypal Transfer',
     desc: 'Money Added',
-    iconColor: '#fff',
-    iconBg: '#2a6f97',
+    iconColor: '#03C9D7',
+    iconBg: '#E5FAFB',
     pcColor: 'green-600',
   },
   {
@@ -641,8 +668,8 @@ export const recentTransactions = [
     amount: '-$560',
     desc: 'Bill Payment',
     title: 'Wallet',
-    iconColor: '#fff',
-    iconBg: '#2a6f97',
+    iconColor: 'rgb(0, 194, 146)',
+    iconBg: 'rgb(235, 250, 242)',
     pcColor: 'red-600',
   },
   {
@@ -650,8 +677,8 @@ export const recentTransactions = [
     amount: '+$350',
     title: 'Credit Card',
     desc: 'Money reversed',
-    iconColor: '#fff',
-    iconBg: '#2a6f97',
+    iconColor: 'rgb(255, 244, 229)',
+    iconBg: 'rgb(254, 201, 15)',
 
     pcColor: 'green-600',
   },
@@ -661,8 +688,8 @@ export const recentTransactions = [
     title: 'Bank Transfer',
     desc: 'Money Added',
 
-    iconColor: '#fff',
-    iconBg: '#2a6f97',
+    iconColor: 'rgb(228, 106, 118)',
+    iconBg: 'rgb(255, 244, 229)',
     pcColor: 'green-600',
   },
   {
@@ -671,8 +698,8 @@ export const recentTransactions = [
     percentage: '+38%',
     title: 'Refund',
     desc: 'Payment Sent',
-    iconColor: '#fff',
-    iconBg: '#2a6f97',
+    iconColor: '#03C9D7',
+    iconBg: '#E5FAFB',
     pcColor: 'red-600',
   },
 ];
@@ -683,7 +710,7 @@ export const weeklyStats = [
     amount: '-$560',
     title: 'Top Sales',
     desc: 'Johnathan Doe',
-    iconBg: '#2a6f97',
+    iconBg: '#FB9678',
     pcColor: 'red-600',
   },
   {
@@ -691,7 +718,7 @@ export const weeklyStats = [
     amount: '-$560',
     title: 'Best Seller',
     desc: 'MaterialPro Admin',
-    iconBg: '#2a6f97',
+    iconBg: 'rgb(254, 201, 15)',
     pcColor: 'red-600',
   },
   {
@@ -699,7 +726,7 @@ export const weeklyStats = [
     amount: '+$560',
     title: 'Most Commented',
     desc: 'Ample Admin',
-    iconBg: '#2a6f97',
+    iconBg: '#00C292',
     pcColor: 'green-600',
   },
 ];
@@ -747,7 +774,7 @@ export const medicalproBranding = {
   data: [
     {
       title: 'Due Date',
-      desc: 'Oct 23, 2022',
+      desc: 'Oct 23, 2021',
     },
     {
       title: 'Budget',
@@ -761,11 +788,11 @@ export const medicalproBranding = {
   teams: [
     {
       name: 'Bootstrap',
-      color: '#2a6f97',
+      color: 'orange',
     },
     {
       name: 'Angular',
-      color: '#2a6f97',
+      color: '#FB9678',
     },
   ],
   leaders: [
@@ -1457,487 +1484,640 @@ export const customersData = [
 export const employeesData = [
   {
     EmployeeID: 1,
-    Name: 'Harri Massey',
+    Name: 'Nancy Davolio',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
     Country: 'USA',
-    ReportsTo: 'Smith',
+    ReportsTo: 'Carson',
     EmployeeImage:
     avatar3,
   },
   {
     EmployeeID: 2,
-    Name: 'Sonnie Crane',
+    Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
     Country: 'USA',
-    ReportsTo: 'Smith',
+    ReportsTo: 'Carson',
     EmployeeImage:
       avatar3,
   },
   {
     EmployeeID: 3,
-    Name: 'Sebastien Xiong',
+    Name: 'Iulia Albu',
     Title: 'HR',
     HireDate: '01/02/2021',
     Country: 'USA',
-    ReportsTo: 'Smith',
+    ReportsTo: 'Carson',
     EmployeeImage:
       avatar4,
   },
   {
     EmployeeID: 4,
-    Name: 'Shona Stanley',
+    Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
     Country: 'USA',
-    ReportsTo: 'Smith',
+    ReportsTo: 'Carson',
     EmployeeImage:
       avatar2,
   },
   {
     EmployeeID: 5,
-    Name: 'Tyron Haines',
+    Name: 'Omar Darobe',
     Title: 'HR',
     HireDate: '01/02/2021',
     Country: 'USA',
-    ReportsTo: 'Smith',
+    ReportsTo: 'Carson',
     EmployeeImage:
       avatar,
   },
   {
-    EmployeeID: 6,
-    Name: 'Toby Garner',
+    EmployeeID: 4,
+    Name: 'Penjani Inyene',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
     Country: 'USA',
-    ReportsTo: 'Smith',
+    ReportsTo: 'Carson',
     EmployeeImage:
       avatar,
   },
   {
-    EmployeeID: 7,
-    Name: 'Monika Tapia',
+    EmployeeID: 5,
+    Name: 'Miron Vitold',
     Title: 'HR',
     HireDate: '01/02/2021',
     Country: 'USA',
-    ReportsTo: 'Smith',
-    EmployeeImage:
-      avatar2,
-  },
-  {
-    EmployeeID: 8,
-    Name: 'Ria Stevenson',
-    Title: 'Sales Representative',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Smith',
-    EmployeeImage:
-    avatar2,
-
-  },
-  {
-    EmployeeID: 9,
-    Name: 'Oliver William',
-    Title: 'Marketing Head',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Smith',
-    EmployeeImage:
-      avatar3,
-  },
-  {
-    EmployeeID: 10,
-    Name: 'Cieran Cowan',
-    Title: 'HR',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Smith',
-    EmployeeImage:
-      avatar4,
-  },
-  {
-    EmployeeID: 11,
-    Name: 'Bronwyn Webb',
-    Title: 'Marketing Head',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Smith',
-    EmployeeImage:
-      avatar2,
-  },
-  {
-    EmployeeID: 12,
-    Name: 'Tayler Jensen',
-    Title: 'HR',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Smith',
-    EmployeeImage:
-      avatar,
-  },
-  {
-    EmployeeID: 14,
-    Name: 'Harri Massey',
-    Title: 'Sales Representative',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Smith',
-    EmployeeImage:
-    avatar3,
-  },
-  {
-    EmployeeID: 15,
-    Name: 'Sonnie Crane',
-    Title: 'Marketing Head',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Smith',
-    EmployeeImage:
-      avatar3,
-  },
-  {
-    EmployeeID: 16,
-    Name: 'Sebastien Xiong',
-    Title: 'HR',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Smith',
-    EmployeeImage:
-      avatar4,
-  },
-  {
-    EmployeeID: 17,
-    Name: 'Shona Stanley',
-    Title: 'Marketing Head',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Smith',
-    EmployeeImage:
-      avatar2,
-  },
-  {
-    EmployeeID: 18,
-    Name: 'Tyron Haines',
-    Title: 'HR',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Smith',
-    EmployeeImage:
-      avatar,
-  },
-  {
-    EmployeeID: 19,
-    Name: 'Toby Garner',
-    Title: 'Marketing Head',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Smith',
-    EmployeeImage:
-      avatar,
-  },
-  {
-    EmployeeID: 20,
-    Name: 'Monika Tapia',
-    Title: 'HR',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Smith',
-    EmployeeImage:
-      avatar2,
-  },
-  {
-    EmployeeID: 21,
-    Name: 'Ria Stevenson',
-    Title: 'Sales Representative',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Smith',
-    EmployeeImage:
-    avatar2,
-
-  },
-  {
-    EmployeeID: 22,
-    Name: 'Oliver William',
-    Title: 'Marketing Head',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Smith',
-    EmployeeImage:
-      avatar3,
-  },
-  {
-    EmployeeID: 23,
-    Name: 'Cieran Cowan',
-    Title: 'HR',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Smith',
-    EmployeeImage:
-      avatar4,
-  },
-  {
-    EmployeeID: 24,
-    Name: 'Bronwyn Webb',
-    Title: 'Marketing Head',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Smith',
-    EmployeeImage:
-      avatar2,
-  },
-  {
-    EmployeeID: 25,
-    Name: 'Tayler Jensen',
-    Title: 'HR',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Smith',
-    EmployeeImage:
-      avatar,
-  },
-  {
-    EmployeeID: 26,
-    Name: 'Harri Massey',
-    Title: 'Sales Representative',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Smith',
-    EmployeeImage:
-    avatar3,
-  },
-  {
-    EmployeeID: 27,
-    Name: 'Sonnie Crane',
-    Title: 'Marketing Head',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Smith',
-    EmployeeImage:
-      avatar3,
-  },
-  {
-    EmployeeID: 28,
-    Name: 'Sebastien Xiong',
-    Title: 'HR',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Smith',
-    EmployeeImage:
-      avatar4,
-  },
-  {
-    EmployeeID: 29,
-    Name: 'Shona Stanley',
-    Title: 'Marketing Head',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Smith',
-    EmployeeImage:
-      avatar2,
-  },
-  {
-    EmployeeID: 30,
-    Name: 'Tyron Haines',
-    Title: 'HR',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Smith',
-    EmployeeImage:
-      avatar,
-  },
-  {
-    EmployeeID: 31,
-    Name: 'Toby Garner',
-    Title: 'Marketing Head',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Smith',
-    EmployeeImage:
-      avatar,
-  },
-  {
-    EmployeeID: 32,
-    Name: 'Monika Tapia',
-    Title: 'HR',
-    HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Smith',
+    ReportsTo: 'Carson',
     EmployeeImage:
       avatar2,
   },
   {
     EmployeeID: 1,
-    Name: 'Ria Stevenson',
+    Name: 'Nancy Davolio',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
     Country: 'USA',
-    ReportsTo: 'Smith',
+    ReportsTo: 'Carson',
     EmployeeImage:
     avatar2,
 
   },
   {
     EmployeeID: 2,
-    Name: 'Oliver William',
+    Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
     Country: 'USA',
-    ReportsTo: 'Smith',
+    ReportsTo: 'Carson',
     EmployeeImage:
       avatar3,
   },
   {
     EmployeeID: 3,
-    Name: 'Cieran Cowan',
+    Name: 'Iulia Albu',
     Title: 'HR',
     HireDate: '01/02/2021',
     Country: 'USA',
-    ReportsTo: 'Smith',
+    ReportsTo: 'Carson',
     EmployeeImage:
       avatar4,
   },
   {
     EmployeeID: 4,
-    Name: 'Bronwyn Webb',
+    Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
     Country: 'USA',
-    ReportsTo: 'Smith',
+    ReportsTo: 'Carson',
     EmployeeImage:
       avatar2,
   },
   {
     EmployeeID: 5,
-    Name: 'Tayler Jensen',
+    Name: 'Omar Darobe',
     Title: 'HR',
     HireDate: '01/02/2021',
     Country: 'USA',
-    ReportsTo: 'Smith',
+    ReportsTo: 'Carson',
     EmployeeImage:
       avatar,
   },
   {
+    EmployeeID: 4,
+    Name: 'Penjani Inyene',
+    Title: 'Marketing Head',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar,
+  },
+  {
+    EmployeeID: 5,
+    Name: 'Miron Vitold',
+    Title: 'HR',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar2,
+  },
+  {
     EmployeeID: 1,
-    Name: 'Harri Massey',
+    Name: 'Nancy Davolio',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
     Country: 'USA',
-    ReportsTo: 'Smith',
+    ReportsTo: 'Carson',
     EmployeeImage:
-    avatar3,
+    avatar,
   },
   {
     EmployeeID: 2,
-    Name: 'Sonnie Crane',
+    Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
     Country: 'USA',
-    ReportsTo: 'Smith',
+    ReportsTo: 'Carson',
     EmployeeImage:
       avatar3,
   },
   {
     EmployeeID: 3,
-    Name: 'Sebastien Xiong',
+    Name: 'Iulia Albu',
     Title: 'HR',
     HireDate: '01/02/2021',
     Country: 'USA',
-    ReportsTo: 'Smith',
+    ReportsTo: 'Carson',
     EmployeeImage:
       avatar4,
   },
   {
     EmployeeID: 4,
-    Name: 'Shona Stanley',
+    Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
     Country: 'USA',
-    ReportsTo: 'Smith',
+    ReportsTo: 'Carson',
     EmployeeImage:
       avatar2,
   },
   {
     EmployeeID: 5,
-    Name: 'Tyron Haines',
+    Name: 'Omar Darobe',
     Title: 'HR',
     HireDate: '01/02/2021',
     Country: 'USA',
-    ReportsTo: 'Smith',
+    ReportsTo: 'Carson',
     EmployeeImage:
       avatar,
   },
   {
     EmployeeID: 4,
-    Name: 'Toby Garner',
+    Name: 'Penjani Inyene',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
     Country: 'USA',
-    ReportsTo: 'Smith',
+    ReportsTo: 'Carson',
     EmployeeImage:
       avatar,
   },
   {
     EmployeeID: 5,
-    Name: 'Monika Tapia',
+    Name: 'Miron Vitold',
     Title: 'HR',
     HireDate: '01/02/2021',
     Country: 'USA',
-    ReportsTo: 'Smith',
+    ReportsTo: 'Carson',
     EmployeeImage:
       avatar2,
   },
   {
     EmployeeID: 1,
-    Name: 'Ria Stevenson',
+    Name: 'Nancy Davolio',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
     Country: 'USA',
-    ReportsTo: 'Smith',
+    ReportsTo: 'Carson',
     EmployeeImage:
     avatar2,
 
   },
   {
     EmployeeID: 2,
-    Name: 'Oliver William',
+    Name: 'Nasimiyu Danai',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
     Country: 'USA',
-    ReportsTo: 'Smith',
+    ReportsTo: 'Carson',
     EmployeeImage:
       avatar3,
   },
   {
     EmployeeID: 3,
-    Name: 'Cieran Cowan',
+    Name: 'Iulia Albu',
     Title: 'HR',
     HireDate: '01/02/2021',
     Country: 'USA',
-    ReportsTo: 'Smith',
+    ReportsTo: 'Carson',
     EmployeeImage:
       avatar4,
   },
   {
     EmployeeID: 4,
-    Name: 'Bronwyn Webb',
+    Name: 'Siegbert Gottfried',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
     Country: 'USA',
-    ReportsTo: 'Smith',
+    ReportsTo: 'Carson',
     EmployeeImage:
       avatar2,
   },
   {
     EmployeeID: 5,
-    Name: 'Tayler Jensen',
+    Name: 'Omar Darobe',
     Title: 'HR',
     HireDate: '01/02/2021',
     Country: 'USA',
-    ReportsTo: 'Smith',
+    ReportsTo: 'Carson',
     EmployeeImage:
       avatar,
+  },
+  {
+    EmployeeID: 4,
+    Name: 'Penjani Inyene',
+    Title: 'Marketing Head',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar,
+  },
+  {
+    EmployeeID: 5,
+    Name: 'Miron Vitold',
+    Title: 'HR',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar2,
+  },
+  {
+    EmployeeID: 1,
+    Name: 'Nancy Davolio',
+    Title: 'Sales Representative',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+    avatar2,
+
+  },
+  {
+    EmployeeID: 2,
+    Name: 'Nasimiyu Danai',
+    Title: 'Marketing Head',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar3,
+  },
+  {
+    EmployeeID: 3,
+    Name: 'Iulia Albu',
+    Title: 'HR',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar4,
+  },
+  {
+    EmployeeID: 4,
+    Name: 'Siegbert Gottfried',
+    Title: 'Marketing Head',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar2,
+  },
+  {
+    EmployeeID: 5,
+    Name: 'Omar Darobe',
+    Title: 'HR',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar,
+  },
+  {
+    EmployeeID: 4,
+    Name: 'Penjani Inyene',
+    Title: 'Marketing Head',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar,
+  },
+  {
+    EmployeeID: 5,
+    Name: 'Miron Vitold',
+    Title: 'HR',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar2,
+  },
+  {
+    EmployeeID: 1,
+    Name: 'Nancy Davolio',
+    Title: 'Sales Representative',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+    avatar2,
+
+  },
+  {
+    EmployeeID: 2,
+    Name: 'Nasimiyu Danai',
+    Title: 'Marketing Head',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar3,
+  },
+  {
+    EmployeeID: 3,
+    Name: 'Iulia Albu',
+    Title: 'HR',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar4,
+  },
+  {
+    EmployeeID: 4,
+    Name: 'Siegbert Gottfried',
+    Title: 'Marketing Head',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar2,
+  },
+  {
+    EmployeeID: 5,
+    Name: 'Omar Darobe',
+    Title: 'HR',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar,
+  },
+  {
+    EmployeeID: 4,
+    Name: 'Penjani Inyene',
+    Title: 'Marketing Head',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar,
+  },
+  {
+    EmployeeID: 5,
+    Name: 'Miron Vitold',
+    Title: 'HR',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar2,
+  },
+  {
+    EmployeeID: 1,
+    Name: 'Nancy Davolio',
+    Title: 'Sales Representative',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+    avatar2,
+
+  },
+  {
+    EmployeeID: 2,
+    Name: 'Nasimiyu Danai',
+    Title: 'Marketing Head',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar3,
+  },
+  {
+    EmployeeID: 3,
+    Name: 'Iulia Albu',
+    Title: 'HR',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar4,
+  },
+  {
+    EmployeeID: 4,
+    Name: 'Siegbert Gottfried',
+    Title: 'Marketing Head',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar2,
+  },
+  {
+    EmployeeID: 5,
+    Name: 'Omar Darobe',
+    Title: 'HR',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar,
+  },
+  {
+    EmployeeID: 4,
+    Name: 'Penjani Inyene',
+    Title: 'Marketing Head',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar,
+  },
+  {
+    EmployeeID: 5,
+    Name: 'Miron Vitold',
+    Title: 'HR',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar2,
+  },
+  {
+    EmployeeID: 1,
+    Name: 'Nancy Davolio',
+    Title: 'Sales Representative',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+    avatar2,
+
+  },
+  {
+    EmployeeID: 2,
+    Name: 'Nasimiyu Danai',
+    Title: 'Marketing Head',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar3,
+  },
+  {
+    EmployeeID: 3,
+    Name: 'Iulia Albu',
+    Title: 'HR',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar4,
+  },
+  {
+    EmployeeID: 4,
+    Name: 'Siegbert Gottfried',
+    Title: 'Marketing Head',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar2,
+  },
+  {
+    EmployeeID: 5,
+    Name: 'Omar Darobe',
+    Title: 'HR',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar,
+  },
+  {
+    EmployeeID: 4,
+    Name: 'Penjani Inyene',
+    Title: 'Marketing Head',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar,
+  },
+  {
+    EmployeeID: 5,
+    Name: 'Miron Vitold',
+    Title: 'HR',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar2,
+  },
+  {
+    EmployeeID: 1,
+    Name: 'Nancy Davolio',
+    Title: 'Sales Representative',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+    avatar2,
+
+  },
+  {
+    EmployeeID: 2,
+    Name: 'Nasimiyu Danai',
+    Title: 'Marketing Head',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar3,
+  },
+  {
+    EmployeeID: 3,
+    Name: 'Iulia Albu',
+    Title: 'HR',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar4,
+  },
+  {
+    EmployeeID: 4,
+    Name: 'Siegbert Gottfried',
+    Title: 'Marketing Head',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar2,
+  },
+  {
+    EmployeeID: 5,
+    Name: 'Omar Darobe',
+    Title: 'HR',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar,
+  },
+  {
+    EmployeeID: 4,
+    Name: 'Penjani Inyene',
+    Title: 'Marketing Head',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar,
+  },
+  {
+    EmployeeID: 5,
+    Name: 'Miron Vitold',
+    Title: 'HR',
+    HireDate: '01/02/2021',
+    Country: 'USA',
+    ReportsTo: 'Carson',
+    EmployeeImage:
+      avatar2,
   },
 ];
 
@@ -1950,7 +2130,7 @@ export const ordersData = [
     OrderItems: 'Fresh Tomato',
     Location: 'USA',
     Status: 'pending',
-    StatusBg: '#ffcf00',
+    StatusBg: '#FB9678',
     ProductImage:
       product6,
   },
@@ -1961,7 +2141,7 @@ export const ordersData = [
     OrderItems: 'Butter Scotch',
     Location: 'Delhi',
     Status: 'complete',
-    StatusBg: '#7ae582',
+    StatusBg: '#8BE78B',
     ProductImage:
       product5,
   },
@@ -1983,7 +2163,7 @@ export const ordersData = [
     OrderItems: 'Night Lamp',
     Location: 'Germany',
     Status: 'canceled',
-    StatusBg: '#e71d36',
+    StatusBg: '#FF5C8E',
     ProductImage:
       product4,
   },
@@ -2005,7 +2185,7 @@ export const ordersData = [
     OrderItems: 'Makeup Lancome Rouge',
     Location: 'USA',
     Status: 'canceled',
-    StatusBg: '#e71d36',
+    StatusBg: '#FF5C8E',
     ProductImage:
       product2,
   },
@@ -2027,7 +2207,7 @@ export const ordersData = [
     OrderItems: 'Headphone',
     Location: 'USA',
     Status: 'complete',
-    StatusBg: '#7ae582',
+    StatusBg: '#8BE78B',
     ProductImage:
       product4,
   },
@@ -2038,7 +2218,7 @@ export const ordersData = [
     OrderItems: 'Shoes',
     Location: 'USA',
     Status: 'pending',
-    StatusBg: '#ffcf00',
+    StatusBg: '#FB9678',
     ProductImage:
       'https://cdn.shopclues.com/images1/thumbnails/104158/320/320/148648730-104158193-1592481791.jpg',
   },
@@ -2049,7 +2229,7 @@ export const ordersData = [
     OrderItems: 'Watch',
     Location: 'USA',
     Status: 'canceled',
-    StatusBg: '#e71d36',
+    StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
@@ -2071,7 +2251,7 @@ export const ordersData = [
     OrderItems: 'Pan Cake',
     Location: 'Delhi',
     Status: 'complete',
-    StatusBg: '#7ae582',
+    StatusBg: '#8BE78B',
     ProductImage:
       'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
   },
@@ -2082,7 +2262,7 @@ export const ordersData = [
     OrderItems: 'Watch',
     Location: 'USA',
     Status: 'canceled',
-    StatusBg: '#e71d36',
+    StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
@@ -2094,7 +2274,7 @@ export const ordersData = [
     OrderItems: 'Fresh Tomato',
     Location: 'USA',
     Status: 'pending',
-    StatusBg: '#ffcf00',
+    StatusBg: '#FB9678',
     ProductImage:
       product6,
   },
@@ -2105,7 +2285,7 @@ export const ordersData = [
     OrderItems: 'Butter Scotch',
     Location: 'Delhi',
     Status: 'complete',
-    StatusBg: '#7ae582',
+    StatusBg: '#8BE78B',
     ProductImage:
       product5,
   },
@@ -2127,7 +2307,7 @@ export const ordersData = [
     OrderItems: 'Night Lamp',
     Location: 'Germany',
     Status: 'canceled',
-    StatusBg: '#e71d36',
+    StatusBg: '#FF5C8E',
     ProductImage:
       product4,
   },
@@ -2149,7 +2329,7 @@ export const ordersData = [
     OrderItems: 'Makeup Lancome Rouge',
     Location: 'USA',
     Status: 'canceled',
-    StatusBg: '#e71d36',
+    StatusBg: '#FF5C8E',
     ProductImage:
       product2,
   },
@@ -2171,7 +2351,7 @@ export const ordersData = [
     OrderItems: 'Headphone',
     Location: 'USA',
     Status: 'complete',
-    StatusBg: '#7ae582',
+    StatusBg: '#8BE78B',
     ProductImage:
       product4,
   },
@@ -2182,7 +2362,7 @@ export const ordersData = [
     OrderItems: 'Shoes',
     Location: 'USA',
     Status: 'pending',
-    StatusBg: '#ffcf00',
+    StatusBg: '#FB9678',
     ProductImage:
       'https://cdn.shopclues.com/images1/thumbnails/104158/320/320/148648730-104158193-1592481791.jpg',
   },
@@ -2193,7 +2373,7 @@ export const ordersData = [
     OrderItems: 'Watch',
     Location: 'USA',
     Status: 'canceled',
-    StatusBg: '#e71d36',
+    StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
@@ -2215,7 +2395,7 @@ export const ordersData = [
     OrderItems: 'Pan Cake',
     Location: 'Delhi',
     Status: 'complete',
-    StatusBg: '#7ae582',
+    StatusBg: '#8BE78B',
     ProductImage:
       'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
   },
@@ -2226,7 +2406,7 @@ export const ordersData = [
     OrderItems: 'Watch',
     Location: 'USA',
     Status: 'canceled',
-    StatusBg: '#e71d36',
+    StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
@@ -2238,7 +2418,7 @@ export const ordersData = [
     OrderItems: 'Fresh Tomato',
     Location: 'USA',
     Status: 'pending',
-    StatusBg: '#ffcf00',
+    StatusBg: '#FB9678',
     ProductImage:
       product6,
   },
@@ -2249,7 +2429,7 @@ export const ordersData = [
     OrderItems: 'Butter Scotch',
     Location: 'Delhi',
     Status: 'complete',
-    StatusBg: '#7ae582',
+    StatusBg: '#8BE78B',
     ProductImage:
       product5,
   },
@@ -2271,7 +2451,7 @@ export const ordersData = [
     OrderItems: 'Night Lamp',
     Location: 'Germany',
     Status: 'canceled',
-    StatusBg: '#e71d36',
+    StatusBg: '#FF5C8E',
     ProductImage:
       product4,
   },
@@ -2293,7 +2473,7 @@ export const ordersData = [
     OrderItems: 'Makeup Lancome Rouge',
     Location: 'USA',
     Status: 'canceled',
-    StatusBg: '#e71d36',
+    StatusBg: '#FF5C8E',
     ProductImage:
       product2,
   },
@@ -2315,7 +2495,7 @@ export const ordersData = [
     OrderItems: 'Headphone',
     Location: 'USA',
     Status: 'complete',
-    StatusBg: '#7ae582',
+    StatusBg: '#8BE78B',
     ProductImage:
       product4,
   },
@@ -2326,7 +2506,7 @@ export const ordersData = [
     OrderItems: 'Shoes',
     Location: 'USA',
     Status: 'pending',
-    StatusBg: '#ffcf00',
+    StatusBg: '#FB9678',
     ProductImage:
       'https://cdn.shopclues.com/images1/thumbnails/104158/320/320/148648730-104158193-1592481791.jpg',
   },
@@ -2337,7 +2517,7 @@ export const ordersData = [
     OrderItems: 'Watch',
     Location: 'USA',
     Status: 'canceled',
-    StatusBg: '#e71d36',
+    StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
@@ -2359,7 +2539,7 @@ export const ordersData = [
     OrderItems: 'Pan Cake',
     Location: 'Delhi',
     Status: 'complete',
-    StatusBg: '#7ae582',
+    StatusBg: '#8BE78B',
     ProductImage:
       'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
   },
@@ -2370,7 +2550,7 @@ export const ordersData = [
     OrderItems: 'Watch',
     Location: 'USA',
     Status: 'canceled',
-    StatusBg: '#e71d36',
+    StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
@@ -2382,7 +2562,7 @@ export const ordersData = [
     OrderItems: 'Fresh Tomato',
     Location: 'USA',
     Status: 'pending',
-    StatusBg: '#ffcf00',
+    StatusBg: '#FB9678',
     ProductImage:
       product6,
   },
@@ -2393,7 +2573,7 @@ export const ordersData = [
     OrderItems: 'Butter Scotch',
     Location: 'Delhi',
     Status: 'complete',
-    StatusBg: '#7ae582',
+    StatusBg: '#8BE78B',
     ProductImage:
       product5,
   },
@@ -2415,7 +2595,7 @@ export const ordersData = [
     OrderItems: 'Night Lamp',
     Location: 'Germany',
     Status: 'canceled',
-    StatusBg: '#e71d36',
+    StatusBg: '#FF5C8E',
     ProductImage:
       product4,
   },
@@ -2437,7 +2617,7 @@ export const ordersData = [
     OrderItems: 'Makeup Lancome Rouge',
     Location: 'USA',
     Status: 'canceled',
-    StatusBg: '#e71d36',
+    StatusBg: '#FF5C8E',
     ProductImage:
       product2,
   },
@@ -2459,7 +2639,7 @@ export const ordersData = [
     OrderItems: 'Headphone',
     Location: 'USA',
     Status: 'complete',
-    StatusBg: '#7ae582',
+    StatusBg: '#8BE78B',
     ProductImage:
       product4,
   },
@@ -2470,7 +2650,7 @@ export const ordersData = [
     OrderItems: 'Shoes',
     Location: 'USA',
     Status: 'pending',
-    StatusBg: '#ffcf00',
+    StatusBg: '#FB9678',
     ProductImage:
       'https://cdn.shopclues.com/images1/thumbnails/104158/320/320/148648730-104158193-1592481791.jpg',
   },
@@ -2481,7 +2661,7 @@ export const ordersData = [
     OrderItems: 'Watch',
     Location: 'USA',
     Status: 'canceled',
-    StatusBg: '#e71d36',
+    StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
@@ -2503,7 +2683,7 @@ export const ordersData = [
     OrderItems: 'Pan Cake',
     Location: 'Delhi',
     Status: 'complete',
-    StatusBg: '#7ae582',
+    StatusBg: '#8BE78B',
     ProductImage:
       'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
   },
@@ -2514,7 +2694,7 @@ export const ordersData = [
     OrderItems: 'Watch',
     Location: 'USA',
     Status: 'canceled',
-    StatusBg: '#e71d36',
+    StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
@@ -2526,7 +2706,7 @@ export const ordersData = [
     OrderItems: 'Fresh Tomato',
     Location: 'USA',
     Status: 'pending',
-    StatusBg: '#ffcf00',
+    StatusBg: '#FB9678',
     ProductImage:
       product6,
   },
@@ -2537,7 +2717,7 @@ export const ordersData = [
     OrderItems: 'Butter Scotch',
     Location: 'Delhi',
     Status: 'complete',
-    StatusBg: '#7ae582',
+    StatusBg: '#8BE78B',
     ProductImage:
       product5,
   },
@@ -2559,7 +2739,7 @@ export const ordersData = [
     OrderItems: 'Night Lamp',
     Location: 'Germany',
     Status: 'canceled',
-    StatusBg: '#e71d36',
+    StatusBg: '#FF5C8E',
     ProductImage:
       product4,
   },
@@ -2581,7 +2761,7 @@ export const ordersData = [
     OrderItems: 'Makeup Lancome Rouge',
     Location: 'USA',
     Status: 'canceled',
-    StatusBg: '#e71d36',
+    StatusBg: '#FF5C8E',
     ProductImage:
       product2,
   },
@@ -2603,7 +2783,7 @@ export const ordersData = [
     OrderItems: 'Headphone',
     Location: 'USA',
     Status: 'complete',
-    StatusBg: '#7ae582',
+    StatusBg: '#8BE78B',
     ProductImage:
       product4,
   },
@@ -2614,7 +2794,7 @@ export const ordersData = [
     OrderItems: 'Shoes',
     Location: 'USA',
     Status: 'pending',
-    StatusBg: '#ffcf00',
+    StatusBg: '#FB9678',
     ProductImage:
       'https://cdn.shopclues.com/images1/thumbnails/104158/320/320/148648730-104158193-1592481791.jpg',
   },
@@ -2625,7 +2805,7 @@ export const ordersData = [
     OrderItems: 'Watch',
     Location: 'USA',
     Status: 'canceled',
-    StatusBg: '#e71d36',
+    StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
@@ -2647,7 +2827,7 @@ export const ordersData = [
     OrderItems: 'Pan Cake',
     Location: 'Delhi',
     Status: 'complete',
-    StatusBg: '#7ae582',
+    StatusBg: '#8BE78B',
     ProductImage:
       'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
   },
@@ -2658,7 +2838,7 @@ export const ordersData = [
     OrderItems: 'Watch',
     Location: 'USA',
     Status: 'canceled',
-    StatusBg: '#e71d36',
+    StatusBg: '#FF5C8E',
     ProductImage:
       'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
   },
